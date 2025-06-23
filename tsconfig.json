@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "ESNext",
+        "strict": true,
+        "allowUnusedLabels": false,
+        "allowUnreachableCode": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "isolatedModules": true,
+        "checkJs": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./types"
+        ],
+        "rootDir": "frontend",
+        "outDir": "script"
+    },
+    "include": [
+        "frontend/**/*"
+    ],
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Strictest",
+    "_version": "2.0.0"
+}
